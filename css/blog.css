@@ -1,0 +1,282 @@
+* {
+    font-family: "Aclonica", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header-bar {
+    height: 100vh;
+    background-image: url('/images/pexels-bertellifotografia-2608517\ 2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+    padding-left: 110px;
+}
+
+.nav-links {
+    flex: 1;
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    padding-left: 500px;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease-in;
+}
+
+.nav-links a:hover {
+    color: #242565;
+    text-decoration: underline;
+}
+
+.links {
+    flex: 1;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    border: 2px solid white;
+    padding: 8px 25px;
+    border-radius: 20px;
+    transition: background-color 0.5s ease-in;
+}
+
+.links a:hover {
+    color: #242565;
+    background-color: white;
+}
+
+.hero {
+    padding: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.hero-right {
+    position: absolute;
+    right: 10%;
+    top: 100%;
+}
+
+.hero-right h1 {
+    width: 550px;
+    color: white;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-right p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    width: 450px;
+}
+
+.hero-right button{
+    list-style-type: none;
+}
+
+.blog-section {
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+.blog-title {
+    text-align: center;
+    line-height: 1.5;
+    margin: 60px auto;
+}
+
+.blog-title h2 {
+    color: #242565;
+    font-size: 40px;
+}
+
+.blog-title p {
+    color: #6A6A6A;
+    
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.blog-card {
+    width: 400px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.149);
+    transition: transform 0.2s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+}
+
+.blog-card img{
+    width: 100%;
+    height: 240px;
+    background-size: cover;
+}
+
+.blog-details {
+    padding: 1rem;
+    gap: 1rem;
+    height: 150px;
+}
+
+.blog-details h3 {
+    color: #242565;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.blog-details p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.blog-details span {
+    color: #A5A5A5;
+    font-size: 14px;
+}
+
+
+
+.load-more {
+    text-align: center;
+    
+}
+
+.load-more a {
+    text-decoration: none;
+    background-color: #F5167E;
+    color: white;
+    padding: 20px 100px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: box-shadow 0.5s ease;
+}
+
+.load-more a:hover {
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.345);
+}
+
+
+footer {
+    margin-top: 6rem;
+    background-color: #0A075F;
+    color: white;
+    max-width: 3000px;
+    padding: 60px;
+}
+
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 300px 200px 1fr;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.logo-img {
+    width: 200px;
+    height: auto;
+    transform: translateY(-20px);
+}
+
+.footer-side p {
+    width: 400px;
+    line-height: 1.5;
+}
+
+.icons img{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+.footer-side h3 {
+    margin-bottom: 40px;
+}
+
+.footer-side ul {   
+    list-style: none;
+    line-height: 2;
+}
+
+.Subscribe-button {
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.Subscribe-form {
+    display: flex;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.Subscribe-form input {
+    border: none;
+    padding: 12px 20px;
+    width: 200px;
+    font-size: 14px;
+    outline: none;
+}
+
+.Subscribe-form input::placeholder {
+    color: #959595;
+}
+
+.Subscribe-button button {
+    border: none;
+    background-color: #F5167E;
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.footer-side a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.footer-side a:hover {
+    color: #F5167E;
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: center;
+}
